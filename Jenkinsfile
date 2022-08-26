@@ -1,7 +1,7 @@
 pipeline { 
     environment { 
         registry = "kurma5147/test_app" 
-        registryCredential = '9908475147' 
+        registryCredential = 'docker_id' 
         dockerImage = '' 
     }
     agent any 
