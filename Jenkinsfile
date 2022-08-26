@@ -1,14 +1,14 @@
 pipeline { 
     environment { 
-        registry = "jpolara2016/test_app" 
-        registryCredential = 'dockerhub_id' 
+        registry = "kurma5147/test_app" 
+        registryCredential = '9908475147' 
         dockerImage = '' 
     }
     agent any 
     stages {
         stage('Cloning Git') { 
             steps { 
-                git 'https://github.com/jpolara2016/test_app' 
+                git 'https://github.com/kurma5147/test_app.git' 
             }
         } 
         stage('Building image') { 
