@@ -86,7 +86,7 @@ jobs:
   # This workflow contains a single job called "build"
   build_docker_image:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ec2-user
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
