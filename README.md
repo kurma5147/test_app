@@ -128,7 +128,7 @@ jobs:
 # Deploy container on ECS          
   deploy_on_ecs:
     needs: build_docker_image
-    runs-on: ubuntu-latest
+    runs-on: ec2-user
     
     steps:
 
